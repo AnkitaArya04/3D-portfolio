@@ -30,6 +30,9 @@ const Hero = () => {
                     </span>
                     </span>
                    </h1>
+                   <p className="text-white-50 md:text-xl relative z-10 pointer-events-none">
+             Hi, I’m Ankita, a developer based in India with a passion for code.
+            </p>
                 <h1>into Real Projects</h1>
                 <h1>that Deliver Results</h1>
               </div>
