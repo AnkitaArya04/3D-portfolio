@@ -17,7 +17,19 @@ const Hero = () => {
                     Shaping 
                      <span className="slide">
                    <span className="wrapper">
-
+                         {words.map((word, index) => (
+                      <span
+                        key={index}
+                        className="flex items-center md:gap-3 gap-1 pb-2"
+                      >
+                        <img
+                          src={word.imgPath}
+                          alt="person"
+                          className="xl:size-12 md:size-10 size-7 md:p-2 p-1 rounded-full bg-white-50"
+                        />
+                        <span>{word.text}</span>
+                      </span>
+                    ))}
                     </span>
                     </span>
                    </h1>
